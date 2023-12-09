@@ -637,7 +637,7 @@ figure.snip1390 .profile {
 
 @media screen and (max-width: 480px) {
     .special-box {
-        display: none;
+        display: block;
     }
 }
 
@@ -674,7 +674,7 @@ figure.snip1390 .profile {
     border: 3px solid white;
     box-shadow: 0 0 10px rgba(255, 255, 255, 1);
     padding: 20px;
-    width: 42.75rem;
+    width: 90%;
     height: 28.6875rem;
 }
 
@@ -690,7 +690,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 39.75rem;
+    width: 90%;
     height: 3.75rem;
     flex-shrink: 0;
     border-radius: 0.75rem;
@@ -712,8 +712,8 @@ input[type="submit"] {
 }
 
 .f button {
-    margin-left: 15rem;
-}
+   margin-left:auto;
+   }
 
 .f {
     margin-bottom: 20rem;
@@ -748,7 +748,7 @@ input[type="submit"] {
 
 @media screen and (max-width: 480px) {
     .email-form {
-        display:none;
+        display:block;
     }
 }
 

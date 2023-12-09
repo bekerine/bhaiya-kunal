@@ -742,7 +742,7 @@ input[type="submit"] {
 }
 
 .email-form {
-    display: flex;
+    display: block;
     justify-content: space-between;
     width: 100%;
 }
@@ -751,6 +751,10 @@ input[type="submit"] {
     .email-form {
         display:block;
     }
+}
+
+footer button{
+    display: block;
 }
 
 .email-form input[type="email"] {

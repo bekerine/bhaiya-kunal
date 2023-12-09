@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Navbar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- navbar start -->
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+    </label>
+    <label class="logo"><span>Secure Strik</span></label>
+    <ul>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- navbar end -->
+
+  <!-- page start -->
+
+  <main>
+    <!-- <br><br><br><br><br><br><br><br><br><br> -->
+
+    <!-- part 1 start -->
+
+    <div class="a">
+      <span>Secure Strik</span>
+      <br><br>
+      <p>Master Cyber Security at your own pace</p>
+      <br><br>
+      <p class="p1">Self-paced courses for a secure digital future</p>
+      <br>
+      <img src="cyber security 1.jpg" alt="box">
+      <br>
+      <button>Explore Courses</button>
+    </div>
+
+    <!-- part 1 end -->
+
+    <!-- part 2 start -->
+
+    <div class="b">
+      <h1>Explore Courses</h1>
+      <br><br>
+      <span class="imp">See all >></span>
+
+      <div id="cardContainer">
+
+        <a href="">
+          <div class="card">
+            <img src="cyber 1.png" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h2><b>Cyber Incident Response</b></h2>
+              <br>
+              <figure>
+                <img src="star.png" alt="" srcset="">
+              </figure>
+              <figcaption>4.2/5</figcaption>
+              <br>
+              <p class="p2">Develop skills in incident detection, analysis, and containment.</p>
+              <br>
+              <figure>
+                <img src="clock.png" alt="" srcset="">
+              </figure>
+              <figcaption>4weeks</figcaption>
+              <br>
+              1,299.00
+              <br>
+              <br>
+              <button>Enroll Now</button>
+            </div>
+          </div>
+        </a>
+
+        <button class="arrow left" onclick="slide(-1)">
+          <</button>
+            <button class="arrow right" onclick="slide(1)">></button>
+
+            <a href="">
+              <div class="card active">
+                <img src="cyber 2.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h2><b>Cybersecurity Fundamentals</b></h2>
+                  <br>
+                  <figure>
+                    <img src="star.png" alt="" srcset="">
+                  </figure>
+                  <figcaption>4.9/5</figcaption>
+                  <br>
+                  <p class="p2">Explore topics such as network security, cryptography, and risk management. Perfect for
+                    beginners</p>
+                  <br>
+                  <figure>
+                    <img src="clock.png" alt="" srcset="">
+                  </figure>
+                  <figcaption>4weeks</figcaption>
+                  <br>
+                  1,299.00
+                  <br>
+                  <br>
+                  <button>Enroll Now</button>
+                </div>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="cyber 3.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h2><b>Cyber Incident Response</b></h2>
+                  <br>
+                  <figure>
+                    <img src="star.png" alt="" srcset="">
+                  </figure>
+                  <figcaption>4.2/5</figcaption>
+                  <br>
+                  <p class="p2">Understand penetration testing, vulnerability assessment, and exploit development.</p>
+                  <br>
+                  <figure>
+                    <img src="clock.png" alt="" srcset="">
+                  </figure>
+                  <figcaption>4weeks</figcaption>
+                  <br>
+                  1,499.00
+                  <br>
+                  <br>
+                  <button>Enroll Now</button>
+                </div>
+              </div>
+            </a>
+
+      </div>
+
+    </div>
+
+    <!-- part 2 end -->
+
+    <!-- part 3 start -->
+
+    <div class="c">
+
+      <h1>Unlock the Benefits of our Cybersecurity Courses</h1>
+
+      <div class="cards">
+
+        <div class="special-card">
+          <img src="icon1.png" alt="" srcset="">
+          <h1>Comprehensive Learning Experience</h1>
+          <p>Dive into a comprehensive curriculum covering essential cybersecurity concepts and real-world
+            applications.</p>
+        </div>
+
+        <div class="special-card">
+          <img src="icon2.png" alt="" srcset="">
+          <h1>Learn on Your Own Pace</h1>
+          <p>Our self-paced courses allow you to learn at your own pace, fitting your studies seamlessly into your busy
+            life.</p>
+        </div>
+
+        <div class="special-card">
+          <img src="icon3.png" alt="" srcset="">
+          <h1>Expert-Led Instruction</h1>
+          <p>Learn from industry experts with extensive experience in the field, ensuring you receive top-notch
+            guidance.</p>
+        </div>
+
+        <div class="special-card">
+          <img src="icon4.png" alt="" srcset="">
+          <h1>Career Advancement Opportunities</h1>
+          <p>Equip yourself with in-demand skills, opening doors to new career opportunities in the rapidly evolving
+            field of cybersecurity.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- part 3 end -->
+
+    <!-- part 4 start -->
+
+<div class="d">
+
+    <h1>Hear What Our Learners Are Saying</h1>
+
+    <section class="sliders">
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+
+            <div class="card-1">
+              <figure class="snip1390">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3"
+                  class="profile" />
+
+                <figure>
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                </figure>
+                <figcaption>5/5</figcaption>
+
+                <figcaption>
+                  <h2>Renee Fox</h2>
+                  <blockquote>Enrolling in the cybersecurity courses was a game-changer for me. The expert-led
+                    instruction provided practical insights that I could apply directly to my job.</blockquote>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="card-1">
+              <figure class="snip1390">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3"
+                  class="profile" />
+
+                <figure>
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                </figure>
+                <figcaption>5/5</figcaption>
+
+                <figcaption>
+                  <h2>Renee Fox</h2>
+                  <blockquote>Enrolling in the cybersecurity courses was a game-changer for me. The expert-led
+                    instruction provided practical insights that I could apply directly to my job.</blockquote>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="card-1">
+              <figure class="snip1390">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3"
+                  class="profile" />
+
+                <figure>
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                </figure>
+                <figcaption>5/5</figcaption>
+
+                <figcaption>
+                  <h2>Renee Fox</h2>
+                  <blockquote>Enrolling in the cybersecurity courses was a game-changer for me. The expert-led
+                    instruction provided practical insights that I could apply directly to my job.</blockquote>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="card-1">
+              <figure class="snip1390">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3"
+                  class="profile" />
+
+                <figure>
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                  <img src="star.png" alt="" srcset="">
+                </figure>
+                <figcaption>5/5</figcaption>
+
+                <figcaption>
+                  <h2>Renee Fox</h2>
+                  <blockquote>Enrolling in the cybersecurity courses was a game-changer for me. The expert-led
+                    instruction provided practical insights that I could apply directly to my job.</blockquote>
+                </figcaption>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </div>
+
+    <!-- part4 end -->
+
+    <!-- part 5 atart -->
+
+<div class="e">
+
+<h1>Get Certified: Elevate Your Cybersecurity Credentials with Secure Strike</h1>
+
+<div class="3rd-last">
+
+<div class="box">
+
+<p>At Secure Strike, we understand the importance of recognized certifications in the fast-paced world of cybersecurity.</p>
+
+<div class="box1">
+<h2>Certificate</h2>
+</div>
+
+</div>
+
+<div class="box">
+
+<div class="box2">
+<h2>How Certification Matters:</h2>
+<br>
+<ol>
+<li><p><b>Validation:</b> Demonstrate your expertise with certifications recognized by industry leaders.</p></li>
+<li><p><b>Career Advancement:</b> Open doors to new career opportunities and promotions.</p></li>
+<li><p><b>Credibility:</b> Gain the trust of employers and clients by showcasing your certified skills.</p></li>
+<li><p><b>Professional Growth:</b> Stay current with the latest industry standards and best practices.</p></li>
+</ol>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+    <!-- part 5 end -->
+
+    <!-- part 6 start -->
+
+<div class="f">
+
+<h1>Get in Touch</h1>
+
+<div class="special-box">
+  <div class="left">
+      <p>Have questions or need more information? Our team is here to help!</p>
+  </div>
+  <div class="right">
+      <div class="box-special">
+        <form>
+          <label for="name"></label><br>
+          <input type="text" id="name" name="name" placeholder="   Name"><br>
+          <label for="email"></label><br>
+          <input type="email" id="email" name="email" placeholder="   email"><br>
+          <label for="message"></label><br>
+          <textarea id="message" name="message" placeholder="   Message"></textarea><br>
+          <button>Send Message</button>
+        </form>
+        
+      </div>
+  </div>
+</div>
+
+</div>
+
+    <!-- part 6 end -->
+
+  </main>
+
+  <footer>
+
+    <div class="last">
+      <div class="column">
+        <span class="tatti">Secure Strik</span>
+        <p class="last">Social Media Links</p>
+        <br>
+        <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+      </div>
+      <div class="column">
+        <span>Quick Links</span>
+        <br>
+<a href="">Home</a>
+<a href="">Courses</a>
+<a href="">About us</a>
+<a href="">Contact</a>
+      </div>
+      <div class="column">
+        <a href="">Testimonials</a>
+        <a href="">Terms of use</a>
+        <a href="">Privacy policy</a>
+      </div>
+      <div class="column">
+        <p>Subscribe to our newsletter:</p>
+        <div class="email-form">
+          <input type="email" id="email" name="email" placeholder="Your email">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- page end -->
+
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+
+    var index = 0;
+    function slide(direction) {
+      var cards = document.querySelectorAll('.card');
+      cards[index].classList.remove('active');
+      index = (index + direction + cards.length) % cards.length;
+      cards[index].classList.add('active');
+    }
+
+  </script>
+
+
+
+</body>
+
+</html>

@@ -724,6 +724,10 @@ input[type="submit"] {
 
 /* footer start */
 
+footer{
+    background-color: #16161D;
+}
+
 .last {
     display: flex;
     flex-wrap: wrap;
@@ -731,7 +735,7 @@ input[type="submit"] {
 
 .column {
     flex: 1;
-    border: 1px solid #0D0D14;
+    border: 1px solid #16161D;
     padding: 10px;
 }
 
